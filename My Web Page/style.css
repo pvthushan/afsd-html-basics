@@ -1,0 +1,78 @@
+.btn{
+position: relative;
+top: 0;
+background-color: rgba(224, 215, 215, 0.548);
+padding: 10px;
+}
+
+.btn-primary-1{
+    background-color: red;
+    border-radius: 10px;
+}
+.sticky-2{
+    font-size: large;
+    position: sticky;
+    top: 10px;
+    background-color: white;
+    border: 2px;
+    padding: 10px;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    font-size: larger;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    font-size: 10px;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ex-btn{
+    background-color: rgb(207, 19, 19);
+    color: rgb(255, 255, 255);
+    border:none ;
+    border-radius: 1200px;
+    padding: 10px;  
+}
+.btn1{
+    background-color: rgb(4, 6, 139);
+    color: rgb(252, 252, 255);
+    border: 1px; ;
+    border-radius: 120px;
+    /* left: 90px; */
+    padding: 10px;
+}

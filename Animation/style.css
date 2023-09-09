@@ -1,0 +1,17 @@
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(170, 166, 202);
+    position: relative;
+    animation-name: sample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample{
+    0% { background-color: blue;left:0 ;top:0;}
+    25%{background-color: blueviolet;left:0 ;top: 70px;;}
+    50%{background-color: crimson;left: 200px; ;top: 50px;;}
+    75%{background-color:black;left: 100px; ;top: 50px;}
+    100%{background-color: rgb(109, 50, 61);left: 100px; ;top: 50px;}
+}

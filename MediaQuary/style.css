@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet;
+}
+@media only screen and (max-width:800px){
+    body{
+        background-color: chartreuse;
+    }
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: blue;
+    }
+    
+.btn{
+    background-color: darkgoldenrod;
+} 
+@media only screen and (max-width:768px){
+    .btn{
+        /* background-color: deeppink; */
+    }
+}
+}
+
+@media only screen and (min-width:425px){
+    .btn{
+        /* background-color: blue */
+        ;
+    }
+}
+.btn{
+    width: 200px;
+    padding: 15px;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+@media  only  screen and (min-width:300px) and(max-width:500px) {
+  
+    body{
+        background-color: darkgreen;
+    }
+}
